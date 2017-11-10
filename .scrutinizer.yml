@@ -1,0 +1,7 @@
+filter:
+    excluded_paths:
+        - test/*
+        - doc/*
+
+checks:
+  javascript: true

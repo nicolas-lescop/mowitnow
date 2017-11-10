@@ -1,0 +1,46 @@
+{
+  "name": "mowitnow",
+  "version": "1.0.5",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "gulp test",
+    "cover": "istanbul cover _mocha",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
+  },
+  "bin": {
+    "mowitnow": "./bin/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huljo/MowItNow-xy-nesw.git"
+  },
+  "keywords": [
+    "mowitnow",
+    "mower"
+  ],
+  "author": "Huljo (Josselin.M)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Huljo/MowItNow-xy-nesw/issues"
+  },
+  "homepage": "https://github.com/Huljo/MowItNow-xy-nesw#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.9",
+    "documentation-theme-node": "^1.0.2",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-documentation": "^2.2.0",
+    "gulp-insert": "^0.5.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-mocha": "^2.2.0",
+    "istanbul": "^0.4.3",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "mocha": "^2.5.3",
+    "mocha-lcov-reporter": "^1.2.0"
+  }
+}

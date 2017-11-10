@@ -1,0 +1,17 @@
+engines:
+  fixme:
+    enabled: true
+  eslint:
+    enabled: true
+  csslint:
+    enabled: false
+  duplication:
+    enabled: false
+ratings:
+  paths:
+  - lib/**
+exclude_paths:
+- test/**/*
+- node_modules/**/*
+- bin/**/*
+- doc/**/*
